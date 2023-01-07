@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  flex-wrap: wrap;
+}
+nav {
+  border-bottom: 5px solid gray;
+  background: rgb(231, 219, 219)61, 145, 145);
+  flex-wrap: wrap;
+}
+.cloud{
+  text-decoration: none;
+  color: wheat;
+}
+
+h1{
+  font-size: large;
+  font-family:  "Playfair Display" sans-serif;
+}
+
+ul {
+  display: flex;
+  text-transform: uppercase;
+  font-family:  "Playfair Display" sans-serif;
+
+}
+ul .onglets {
+  padding-left: 60%;
+  padding-top: 25px;
+  font-family:  "Playfair Display" sans-serif;
+}
+
+.onglets{
+  opacity: 0.9;
+  transform: rotateZ(1.05);
+  transition: 0.6S ease-in-out;
+}
+
+span {
+  color: blue;
+}
+.onglets a {
+  margin-right: 10px;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  color: #000;
+  font-family: "Playfair Display" sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://securitecasablanca.com/maitre-chien-casablanca/maitre-chien-casablanca.jpg');
+    background-size: cover;
+    padding: 330px;
+    color: black; 
+    flex-wrap: wrap;  
+}
+h2 {
+    margin-top: -250px;
+    margin-right: -30px;
+    font-size: xx-large;
+    color: rgb(157, 179, 168);
+    font-family:  "Playfair Display" sans-serif;
+}
+h4 {
+    margin-top: 10px;
+    font-size: x-large;
+    cursor: none;
+    color: blue;
+    font-family:  "Playfair Display" sans-serif;
+}
+h4 .span {
+    color: blue;
+}
+
+button {
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    background-color: rgb(73, 87, 83);
+    color: white;
+    border-radius: 10px;
+    padding: 18px 18px;
+    margin-left: 70%;
+    margin-top: -20%;
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition: 0.7s ease-in;
+    cursor: pointer;
+    font-family:  "Playfair Display" sans-serif;
+}
+.other a {
+  text-decoration: none;
+  color: #000;
+  padding-left: 20px;
+  justify-content: left;
+  margin-top: -295px;
+  margin-left: 150px;
+  font-family: "Playfair Display" sans-serif;
+  position: relative;
+  margin-right: -140px;
+  font-size: 1.2rem;
+}
+h3 {
+  color: red;
+  transition: 50ms;
+  font-family: "Playfair Display" sans-serif;
+}
+main{
+   margin: 0;
+   padding: 0;
+   margin-top: 2px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: wrap;
+   border-top: 5px solid gray;
+}
+main img{
+  margin-left: 29%;
+  width: 500px;
+  height: 300px;
+}
+
+.suit-1 img{
+    margin-top: -900px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+.suit-2 {
+  margin-left: 550px;
+}
+.suit-2 img{
+    margin-left: -550px;
+    margin-top:  -250px;
+}
+.suit-3 img{
+    margin-top: -600px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+}
+.big-order{
+    border-top: 5px solid black;
+}
+.big-order .winner{
+      margin-left: 35%;
+}
+footer{
+  margin-top: 40px;
+  border-top: 5px solid rgb(255, 244, 244);
+  background-color: rgb(20, 16, 16);
+  color: white;
+  padding: 30px 100px;
+  font-family: "Montserrat", sans-serif;
+}
+footer .end .end{
+   display: flex;
+   justify-items: flex-end;
+   flex-wrap: wrap;
+}
+
+footer .ends .end p{
+  max-width: 300px;
+}
+.end{
+  margin-right: 30px;
+  align-items: center;
+}
+
+footer #about{
+  margin-left: 45%;
+}
+
+footer #contact{
+  margin-top: 50px;
+  margin-left: 35%;
+  margin-bottom: -10px;
+  color: blueviolet;
+}
+.pronoun{
+  font-family: "Playfair Display" sans-serif;
+  flex-wrap: wrap;
+}
+
+.wijl{
+  color: red;
+  align-items: center;
+  font-weight: bolder;
+  
+}
+.goggo1{
+  margin-left: 35%;
+  
+}
+.goggo2{
+  margin-left: 47%;
+}
+.goggo3{
+  margin-left: 42%;
+}
+.goggo4{
+  margin-left: 48%;
+}
+.goggo5{
+  margin-left: 44%;
+}
+.goggo6{
+  margin-left: 41%;
+}
+.goggo7{
+  margin-left: 43%;
+}
+.goggo8{
+  margin-left: 27%;
+}
+.jdidk{
+  position: relative;
+  margin-left: 35%;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  margin-top: -38px;  
+}
+.tyjyd{
+  padding-top: 5px;
+  font-family: "Playfair Display" sans-serif;
+  
+}
+.wpcf7{
+  font-size: 20px;
+  border-radius: 5px;
+}
+@media screen  {max-width:680px;
+  nav header .onglets{
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  main {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
